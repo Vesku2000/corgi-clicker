@@ -1,0 +1,100 @@
+body{
+    background-color: #5F9DF7;
+    margin: 0;
+    padding: 0;
+    color: #FFF7E9;
+    font-weight: bold;
+}
+#clickDog{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#imageWrap{
+    width: 15rem;
+    height: 15rem;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #FFF7E9;
+    padding: 10px;
+    
+  }
+  
+  .shop-container > div {
+    background-color: #FF731D;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 120px;
+  }
+  
+.item1{
+    background-image: url("./assets/bone.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item2{
+  background-image: url("./assets/food.png");
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item3{
+  background-image: url("./assets/black.png");
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stats-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #FFF7E9;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.stats-container > div {
+    background-color: #FF731D;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  #shop_T{
+    color: black;
+    text-align: justify;
+    font-size: 40px;
+    background-color: #FF731D;
+    border-radius: 50%;
+    border: #5F9DF7 2px solid;
+  }
+
+  button{
+    border-radius: 15px;
+    background-color: #FF731D;
+    border: #5F9DF7 2px solid;
+    height: 50px;
+  }
